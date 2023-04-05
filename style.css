@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(157, 20, 132);
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    background-color: rgb(157, 20, 132);
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 3rem;
+}
+
+a:hover, .active{
+    background-color: white;
+    color: rgb(157, 20, 132);
+}
+
+h1, input, textarea{
+    background-color: rgba(171, 199, 236, 0.733);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 0.5rem;
+    margin-top: 1rem;
+    width: 60%;
+    padding: auto 0.5rem;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+    margin-top: 3rem;
+}
+
+label{
+    margin: 2rem 0.5rem;
+    padding: auto 0.5rem;
+    text-align: start;
+}
+
+h2, h3, h4, h5{
+    text-align: left;
+    padding-left: 2rem;
+    margin: 1rem 0.5rem;
+}
+
+button{
+    background-color: rgb(157, 20, 132);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 2rem 0;
+    color: white;
+}
+
+footer{
+    background-color: rgba(157, 20, 132, 0.758);
+    color: white;
+    padding: 1em;
+    text-align: left;
+    position: sticky;
+    bottom: 0;
+}
